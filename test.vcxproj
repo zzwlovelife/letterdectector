@@ -23,6 +23,7 @@
     <ProjectGuid>{BC74E958-5D13-4A1C-B4F0-CE2BF9740E5C}</ProjectGuid>
     <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>letterdectector_v3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -142,7 +143,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cutPredict.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="train.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MLPModel.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cutPredict.h" />
+    <ClInclude Include="train.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

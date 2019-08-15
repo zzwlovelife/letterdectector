@@ -18,5 +18,27 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="train.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cutPredict.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MLPModel.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="train.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cutPredict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
