@@ -14,5 +14,6 @@ const String testImagePath = "D:\\ASUS\\Documents\\opencv\\opencv_letterdectect\
 
 //生成一个xml文件，并测试一个例子
 void train();
+
 #endif // !train_h
 
